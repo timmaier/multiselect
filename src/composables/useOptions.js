@@ -814,6 +814,8 @@ export default function useOptions(props, context, dep) {
 
       if (!Object.keys(iv.value).length) {
         initInternalValue();
+      } else if (props.searchOnEmpty) {
+        initInternalValue();
       }
 
       refreshLabels();
