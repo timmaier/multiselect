@@ -689,7 +689,7 @@ export default function useOptions(props, context, dep) {
     searchWatcher.value = watch(
       search,
       (query) => {
-        if (query.length < minChars.value || !query) {
+        if (query.length < minChars.value) {
           return;
         }
 
@@ -804,8 +804,6 @@ export default function useOptions(props, context, dep) {
         resolveOptions(() => {
           if (Object.keys(iv.value).length) {
             initInternalValue();
-          } else if (props.searchOnEmpty) {
-            initInternalValue();
           }
         });
       }
@@ -813,8 +811,6 @@ export default function useOptions(props, context, dep) {
       ro.value = props.options;
 
       if (!Object.keys(iv.value).length) {
-        initInternalValue();
-      } else if (props.searchOnEmpty) {
         initInternalValue();
       }
 
