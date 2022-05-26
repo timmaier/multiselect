@@ -1,3 +1,33 @@
+## v2.3.4
+
+> `2021-05-11`
+
+### 🎉 Feature
+  - Async options change detectiion.
+  - Label prop change detection.
+  - Option & label texts can contain HTML.
+
+## v2.3.3
+
+> `2021-02-26`
+
+### 🎉 Feature
+  - Added `attrs` prop.
+
+## v2.3.2
+
+> `2021-02-06`
+
+### 🐞 Bug Fixes
+  - Removed `@apply` from default theme.
+
+## v2.3.1
+
+> `2021-12-16`
+
+### 🐞 Bug Fixes
+  - Removed `exports` from `package.json` [#178](https://github.com/vueform/multiselect/issues/178).
+
 ## v2.3.0
 
 > `2021-12-16`
@@ -12,10 +42,10 @@
 
 ### 🐞 Bug Fixes
   - Don't show spinner when not active [#156](https://github.com/vueform/multiselect/issues/156).
-  - TailwindCSS 3 compatibility issue fix [#176](https://github.com/vueform/multiselect/issues/176).
+  - Tailwind CSS 3 compatibility issue fix [#176](https://github.com/vueform/multiselect/issues/176).
   - Don't show caret when `showOptions` are disabled [#173](https://github.com/vueform/multiselect/issues/173).
   - Resolved headless UI modal click issue [#148](https://github.com/vueform/multiselect/issues/148).
-  - Resolved TailwindCSS/form ring issue [#135](https://github.com/vueform/multiselect/issues/135).
+  - Resolved Tailwind CSS/form ring issue [#135](https://github.com/vueform/multiselect/issues/135).
   - Made classes reactive [#126](https://github.com/vueform/multiselect/issues/126).
   - The `addTagOn` prop uses `key` instead of `keyCode` internally [#125](https://github.com/vueform/multiselect/issues/125).
 
