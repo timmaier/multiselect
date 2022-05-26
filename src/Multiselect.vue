@@ -395,6 +395,11 @@ export default {
       required: false,
       default: true,
     },
+    searchOnEmpty: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
     canDeselect: {
       type: Boolean,
       required: false,
